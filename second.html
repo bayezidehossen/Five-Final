@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>Welcome to our Second Page</title>
+</head>
+<body class="bg-gray-200 pt-5">
+
+    <header  class="flex justify-between bg-slate-50 w-250 h-15 p-2 mx-auto border rounded-lg">
+        <div class="flex">
+            <img class="w-8 h-8 py-1 pl-2" src="assets/logo.png" alt="">
+            <h1 class="pt-2 pl-2"><span class="text-xl">Dev</span><span class="font-bold text-xl">Board</span></h1>
+         </div>
+
+         <div class="w-28 h-8 border rounded-sm mt-2 text-gray-100 bg-[#3752FD] p-1 mr-2"> 
+            <button id="deskboard" class="">Back to Desk</button>
+        </div>
+
+    </header>
+
+    <main class="">
+         <p class="font-bold text-2xl text-center pt-2">Blogs</p>
+
+         <div class="mt-3 bg-slate-50 w-250 h-auto p-2 mx-auto rounded-sm">
+           <p class="font-bold pb-2">Question-1:What are the different ways to select on element on the DOM?</p>
+           <P class="text-gray-600">1.document.getElementById("idName")<br>
+            2.document.getElementsByClassName("className")<br>
+            3.document.getElementsByTagName("div")<br>
+            4.document.querySelectorAll(".className")<br>
+            5.document.getElementsByName("MyName")
+           </P>
+         </div>
+
+
+         <div class="mt-3 bg-slate-50 w-250 h-auto p-2 mx-auto rounded-sm">
+            <p class="font-bold pb-2">Question-2:What is the difference between innerHTML,innerText,and TextContent?</p>
+            <P class="text-gray-600">1.innerHTML:Returns or sets the HTML content inside an element as a string.<br>
+             2.innerText:Returns or set the visible text inside an element.<br>
+             3.TextContent:Returns or set the full text content of an element.
+            </P>
+          </div>
+
+          <div class="mt-3 bg-slate-50 w-250 h-auto p-2 mx-auto rounded-sm">
+            <p class="font-bold pb-2">
+                Question-3:What is event delegation in the DOM?
+            </p>
+            <P class="text-gray-600">Event delegation is a function in javascript where a 
+                sigle parent element handels event for its child element.
+            </P>
+          </div>
+
+          <div class="mt-3 bg-slate-50 w-250 h-auto p-2 mx-auto rounded-sm">
+            <p class="font-bold pb-2">Question-4:What is event bubbling in DOM?</p>
+            <P class="text-gray-600">Event bubbling is a consept in the DOM where an event
+                starts at the target element and propagates documents.
+            </P>
+          </div>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="javascript/back.js"></script>
+
+</body>
+</html>
